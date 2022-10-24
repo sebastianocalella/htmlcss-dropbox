@@ -47,13 +47,17 @@ main header .container{
     padding: 4rem 15%;
 }
 
-main header .text-content{
+main .text-content{
     display: inline-block;
     width: 40%;
 }
 
 main section.container{
     margin: 4rem 20% 0;
+}
+
+main section.container>*{
+    margin-bottom: 2rem;
 }
 
 main section .card-container *{
@@ -63,4 +67,9 @@ main section .card-container *{
 main section .card{
     height: 40px;
     background-color: aqua;
+}
+
+main section .bordless-card *{
+    height: 50px;
+    background-color: aquamarine;
 }
