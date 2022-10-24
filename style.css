@@ -14,8 +14,8 @@
     justify-content: space-between;
 }
 
-body *{
-    border: 1px solid wheat;
+.bg-lightblue{
+    background-color: #b4d0e7;
 }
 
 /* header indication*/
@@ -39,10 +39,6 @@ header ul li{
 
 /*main indication*/
 
-main header{
-    background-color: #b4d0e7;
-}
-
 main header .container{
     padding: 4rem 15%;
 }
@@ -52,7 +48,10 @@ main .text-content{
     width: 40%;
 }
 
-main section.container{
+/*main sections indications*/
+
+main section.container,
+main section div.container{
     margin: 4rem 20% 0;
 }
 
@@ -75,4 +74,24 @@ main section .bordless-card *{
 
 main section footer{
     width: 60%;
+}
+
+.squarebox{
+    height: 30vw;
+    width: 30vw;
+    flex-wrap: wrap;
+}
+
+.text-card{
+    width: 35vw;
+}
+
+.text-card{
+    display: inline-block;
+}
+
+.square{
+    height: 14vw;
+    width: 14vw;
+    border: 2px solid rebeccapurple;
 }
