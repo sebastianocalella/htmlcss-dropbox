@@ -61,7 +61,7 @@ main section.container>*{
 }
 
 main section .card-container *{
-    width: 30%;
+    width: 31%;
 }
 
 main section .card{
@@ -71,4 +71,8 @@ main section .card{
 main section .bordless-card *{
     height: 50px;
     background-color: aquamarine;
+}
+
+main section footer{
+    width: 60%;
 }
