@@ -50,12 +50,20 @@ hr{
     position: absolute;
 }
 
+.gray{
+    color: gray;
+}
+
 .bg-lightblue{
     background-color: #b4d0e7;
 }
 
-.bg-lightgrey{
+.bg-fontgrey{
     background-color: #f5f5f5;
+}
+
+.bg-lighgray{
+    background-color: lightgray;
 }
 
 .bg-lightslategrey{
@@ -69,7 +77,6 @@ hr{
 .grayboard{
     border: 1px solid lightgray;
 }
-
 
 
 /* header indication*/
@@ -146,8 +153,13 @@ main section .card-container>*{
 }
 
 .card-title{
-    margin: 8px;
+    padding: 8px;
     text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.card-content{
+    padding: 2.5rem 1.5rem;
 }
 
 main section .bordless-card *{
