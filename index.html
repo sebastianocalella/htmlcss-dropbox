@@ -13,7 +13,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-
+        <!-- font awesome references -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <title>Dropbox Business</title>
     </head>
     <body>
@@ -54,20 +55,22 @@
 
             <section class="container"> <!-- cards section -->
                 <h2>Trova il piano business che fa per te</h2>
-                <span> <input type="radio" name="fatturation-type"> Fatturazione Mensile </span>
-                <span> <input type="radio" name="fatturation-type"> Fatturazione annuale </span>
+                <span class="radio-selector"> <input type="radio" name="fatturation-type"> Fatturazione Mensile </span>
+                <span class="radio-selector"> <input type="radio" name="fatturation-type"> Fatturazione annuale </span>
                 <div class="flexbox card-container fl-between">
-                    <div class="card">
-                        prova
+                    <div class="card grayboard">
+                        <div class="card-title"><i class="fa-solid fa-user"></i> Singolo</div>
                     </div>
-                    <div class="card">
-                        prova
+                    <div class="card grayboard">
+                        <div class="tx-center card-title"><i class="fa-solid fa-users"></i> Team</div>
                     </div>
-                    <div class="card">
-                        prova
+                    <div class="card grayboard">
+                        <div class="card-title"><i class="fa-solid fa-building"></i> Azienda</div>
                     </div>
                 </div>
-                <div class="card"></div>
+                <div class="card grayboard">
+                    <div class="card-title"><i class="fa-solid fa-building"></i> Team</div>
+                </div>
 
                 <div class="bordless-card">
                     <img src="" alt="2 guys image">

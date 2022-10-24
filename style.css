@@ -66,6 +66,10 @@ hr{
     background-color: white;
 }
 
+.grayboard{
+    border: 1px solid lightgray;
+}
+
 
 
 /* header indication*/
@@ -98,13 +102,19 @@ main .text-content{
     width: 35%;
 }
 
+main h2{
+    font-size: 2rem;
+}
+
 /*main sections indications*/
 
 main section.container,
 main section div.container,
 main footer.container{
-    margin: 4rem 20% 0;
+    margin: 8rem 20% 0;
 }
+
+/*main header*/
 
 main header h1{
     font-size: 3.5rem;
@@ -120,16 +130,24 @@ main header img{
     margin-bottom: 3rem;
 }
 
+/*main sections*/
+
+.radio-selector{
+    display: inline-block;
+    margin-right: 3rem;
+}
+
 main section.container>*{
     margin-bottom: 2rem;
 }
 
-main section .card-container *{
+main section .card-container>*{
     width: 31%;
 }
 
-main section .card{
-    background-color: aqua;
+.card-title{
+    margin: 8px;
+    text-align: center;
 }
 
 main section .bordless-card *{
