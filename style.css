@@ -18,6 +18,10 @@
     background-color: #b4d0e7;
 }
 
+.bg-lightgrey{
+    background-color: #f5f5f5;
+}
+
 /* header indication*/
 
 header .logo{
@@ -91,7 +95,6 @@ main section footer{
 }
 
 .square{
-    height: 14vw;
-    width: 14vw;
-    border: 2px solid rebeccapurple;
+    height: 15vw;
+    width: 15vw;
 }
