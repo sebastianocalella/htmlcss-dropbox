@@ -152,21 +152,29 @@ main section .card-container>*{
     width: 31%;
 }
 
-.card-title{
+.card-head{
     padding: 8px;
     text-align: center;
     border-bottom: 1px solid lightgray;
 }
 
 .card-content{
-    padding: 2.5rem 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
 .card-content *{
-    margin: 1rem 0;
+    margin-bottom: 1.2rem;
 }
 
-.card-content button{
+.card-content>*{
+    margin-bottom: 2.5rem;
+}
+
+.card-title{
+    width: 70%;
+}
+
+.card-container .card-content button{
     display: block;
     width: 100%;
     font-size: .7rem;
@@ -183,6 +191,12 @@ main section .card-container>*{
     font-size: bolder;
     left: -15px;
     margin-top: 2px;
+}
+
+.horizontal-card button{
+    top: 40px;
+    right: 25px;
+    font-size: .7rem;
 }
 
 main section .bordless-card *{

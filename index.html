@@ -59,11 +59,13 @@
                 <span class="radio-selector"> <input type="radio" name="fatturation-type"> Fatturazione annuale </span>
                 <div class="flexbox card-container fl-between">
                     <div class="card grayboard"> <!-- card 1 -->
-                        <div class="card-title"><i class="fa-solid fa-user"></i> Singolo</div>
+                        <div class="card-head"><i class="fa-solid fa-user"></i> Singolo</div>
                         <div class="card-content">
-                            <h3>Professional</h3>
-                            <h4>&euro;12.00</h4>
-                            <span class="gray">/mese</span>
+                            <div class="card-title">
+                                <h3>Professional</h3>
+                                <h4>&euro;12.00</h4>
+                                <span class="gray">/mese</span>
+                            </div>
                             <ul>
                                 <li>1 utente</li>
                                 <li>5 TB di spazio di archiviazione sicuro</li>
@@ -79,12 +81,15 @@
                             </ul>
                         </div>
                     </div>
+
                     <div class="card grayboard"> <!-- card 2 -->
-                        <div class="tx-center card-title"><i class="fa-solid fa-users"></i> Team</div>
+                        <div class="tx-center card-head"><i class="fa-solid fa-users"></i> Team</div>
                         <div class="card-content">
-                            <h3>Advanced</h3>
-                            <h4>&euro;18.00</h4>
-                            <span class="gray">/mese</span>
+                            <div class="card-title">
+                                <h3>Advanced</h3>
+                                <h4>&euro;18.00</h4>
+                                <span class="gray">/mese</span>
+                            </div>
                             <ul>
                                 <li>3 o più utenti</li>
                                 <li>tutto lo spazio di cui ha bisogno il tuo team</li>
@@ -103,12 +108,15 @@
                             </ul>
                         </div>
                     </div>
+
                     <div class="card grayboard"> <!-- card 3 -->
-                        <div class="card-title"><i class="fa-solid fa-building"></i> Azienda</div>
+                        <div class="card-head"><i class="fa-solid fa-building"></i> Azienda</div>
                         <div class="card-content">
-                            <h3>Enterprise</h3>
-                            <h4>Contattaci</h4>
-                            <span class="gray">-</span>
+                            <div class="card-title">
+                                <h3>Enterprise</h3>
+                                <h4>Contattaci</h4>
+                                <span class="gray">-</span>
+                            </div>
                             <ul>
                                 <li>10 o più utenti</li>
                                 <li>Soluzioni personalizzabili per la tua azienda</li>
@@ -126,8 +134,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="card grayboard">
-                    <div class="card-title"><i class="fa-solid fa-building"></i> Team</div>
+
+                <div class="card horizontal-card grayboard">
+                    <div class="card-head"><i class="fa-solid fa-building"></i> Team</div>
+                    <div class="card-content relative">
+                        <div class="card-title">
+                            <h3>Enterprise</h3>
+                            <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                            <span>Soluzioni personalizzate su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</span>
+                        </div>
+                        <button class="blue-button absolute">Contatta l'ufficio vendite</button>
+                    </div>
+
                 </div>
 
                 <div class="bordless-card">
