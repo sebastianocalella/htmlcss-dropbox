@@ -131,7 +131,7 @@ main{
 
 main header .container,
 body>footer{                    /*footer of the body*/
-    padding: 4rem 15%;
+    padding: 8rem 15%;
 }
 
 main .text-content{
@@ -141,6 +141,12 @@ main .text-content{
 
 main h2{
     font-size: 2rem;
+}
+
+main header .big-arrow{
+    bottom: 20px;
+    left: 16%;
+    font-size: 1.8rem;
 }
 
 /*main sections indications*/
