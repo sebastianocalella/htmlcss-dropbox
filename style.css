@@ -55,6 +55,10 @@ hr{
     position: absolute;
 }
 
+.small{
+    width: 15%;
+}
+
 .gray{
     color: gray;
 }
@@ -171,6 +175,10 @@ main section .card-container>*{
     margin-bottom: 1.2rem;
 }
 
+.card-content hr{
+    margin-top: 1.2rem;
+}
+
 .card-content>*{
     margin-bottom: 2.5rem;
 }
@@ -248,8 +256,12 @@ main section footer *{
     width: 35vw;
 }
 
-.text-card{
-    display: inline-block;
+.text-card *{
+    margin-top: 30px;
+}
+
+.text-card img{
+    width: 15vw;
 }
 
 .square{
@@ -263,7 +275,45 @@ main section footer *{
     margin: 0 auto;
     position: absolute;
     left: calc(50% - 5vw);
+    filter: invert(1);
 }
+
+/* Partners logo instructions */
+
+#designit{
+    background-color: #a2d39b;
+    border: 8px solid #d0e8cc;
+}
+
+#arizona_state_university{
+    background-color: #61082b;
+}
+
+#university_of_florida{
+    background-color: #0093ce;
+}
+
+#topps{
+    background-color: #ff1c1c;
+}
+
+#world_bicycle_relief{
+    background-color: #d5001f;
+}
+
+#hearst_corp{
+    background-color: #b4d0e7;
+}
+
+#lonely_planet{
+    background-color: #0d2481;
+}
+
+#clear_channel{
+    background-color: #ffd830;
+}
+
+/*<---------------------------->*/
 
 main>footer>h2{
     margin-bottom: 3rem;
