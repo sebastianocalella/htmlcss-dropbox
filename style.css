@@ -59,6 +59,10 @@ hr{
     position: absolute;
 }
 
+.fixed{
+    position: fixed;
+}
+
 .small{
     width: 15%;
 }
@@ -104,6 +108,10 @@ hr{
 
 header{
     min-width: 900px;
+    width: 100vw;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid #b4d0e7;
 }
 
 header .logo{
