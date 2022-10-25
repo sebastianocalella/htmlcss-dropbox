@@ -166,6 +166,7 @@ header a:hover{
 main{
     min-width: 1100px;
     max-width: 2150px;
+    background-color: white;
 }
 
 main header .container,
@@ -421,6 +422,30 @@ main>footer .question{
     padding: 1.5rem 0;
 }
 
+.question{
+    position: relative;
+}
+
+.answer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 2rem 1rem;
+    width: 50%;
+    opacity: 0;
+    transition: opacity 1s, width 1s;
+    z-index: -1;
+}
+
+.question:hover .answer{
+    position: relative;
+    width: 70%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
 .question span{
     padding-left: 1rem;
 }
@@ -428,6 +453,8 @@ main>footer .question{
 .question i{
     padding-right: 3rem;
 }
+
+
 
 /*body footer indication*/
 
