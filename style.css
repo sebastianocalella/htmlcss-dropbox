@@ -67,6 +67,10 @@ hr{
     color: gray;
 }
 
+.blue{
+    color: #0061ff;
+}
+
 .bordeaux{
     color: #61082b;
 }
@@ -208,14 +212,13 @@ main section .card-container>*{
 
 .service{
     position: relative;
-    margin-left: 15px;
+    margin-left: 18px;
 }
 
 .service i{
     position: absolute;
-    color: #0061ff;
     font-size: bolder;
-    left: -15px;
+    left: -18px;
     margin-top: 2px;
 }
 
