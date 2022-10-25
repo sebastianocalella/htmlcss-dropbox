@@ -383,3 +383,13 @@ body>footer{
 body>footer>hr{
     margin: 3rem 0;
 }
+
+body>footer i{
+    color: lightslategray;
+}
+
+body>footer>select{
+    background-color: black;
+    color: lightslategray;
+    border: none;
+}
