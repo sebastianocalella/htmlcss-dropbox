@@ -29,6 +29,11 @@ button{
     color: white;
 }
 
+.black-board-button{
+    border: 1px solid black;
+    padding: .6rem 1rem;
+}
+
 hr{
     border: none;
     height: 1px;
@@ -199,9 +204,21 @@ main section .card-container>*{
     font-size: .7rem;
 }
 
-main section .bordless-card *{
-    height: 50px;
-    background-color: aquamarine;
+.bordless-card{
+    margin-top: 100px;
+}
+
+.bordless-card>img{
+    width: 35vw;
+}
+
+.bordless-card .text-content{
+    vertical-align: top;
+    margin: 25px 0 0 35px;
+}
+
+.bordless-card .text-content *{
+    margin-bottom: 1.2rem;
 }
 
 main section footer{
