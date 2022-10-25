@@ -341,12 +341,24 @@ main section footer *{
     padding: 16px 40px;
 }
 
+main>footer{
+    padding-bottom: 6rem;
+}
+
 main>footer>h2{
     margin-bottom: 3rem;
 }
 
 main>footer .question{
     padding: 1.5rem 0;
+}
+
+.question span{
+    padding-left: 1rem;
+}
+
+.question i{
+    padding-right: 3rem;
 }
 
 /*body footer indication*/
