@@ -47,6 +47,10 @@ hr{
     justify-content: space-between;
 }
 
+.fl-evenly{
+    justify-content: space-evenly;
+}
+
 .relative{
     position: relative;
 }
@@ -61,6 +65,10 @@ hr{
 
 .gray{
     color: gray;
+}
+
+.bordeaux{
+    color: #61082b;
 }
 
 .bg-lightblue{
@@ -322,6 +330,16 @@ main section footer *{
 }
 
 /*<---------------------------->*/
+
+.partners .bg-lightblue{
+    padding: 12vh 6vw;
+}
+
+.partners button{
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 40px;
+}
 
 main>footer>h2{
     margin-bottom: 3rem;
