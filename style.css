@@ -102,6 +102,10 @@ hr{
 
 /* header indication*/
 
+header{
+    min-width: 900px;
+}
+
 header .logo{
     display: inline-block;
     margin: 15px;
@@ -234,6 +238,8 @@ main section .card-container>*{
 
 .bordless-card>img{
     width: 35vw;
+    min-width: 300px;
+    max-width: 580px;
 }
 
 .bordless-card .text-content{
@@ -265,12 +271,15 @@ main section footer *{
 .squarebox{
     height: 30vw;
     width: 30vw;
+    min-width: 300px;
+    min-height: 300px;
     flex-wrap: wrap;
 }
 
 .text-card{
     width: 32vw;
     font-size: .7rem;
+    min-width: 300px;
 }
 
 .text-card *{
@@ -280,20 +289,22 @@ main section footer *{
 
 .text-card img{
     display: block;
-    width: 15vw;
+    width: 200px;
 }
 
 .square{
     height: 15vw;
     width: 15vw;
+    min-width: 150px;
+    min-height: 150px;
     align-items: center;
 }
 
 .square img{
-    width: 10vw;
+    width: 140px;
     margin: 0 auto;
     position: absolute;
-    left: calc(50% - 5vw);
+    left: calc(50% - 70px);
     filter: invert(1);
 }
 
@@ -369,10 +380,11 @@ main>footer .question{
 body>footer{
     background-color: black;
     color: white;
+    min-width: 1100px;
 }
 
 .references{
-    width: 18%;
+    width: 18vw;
 }
 
 .references h3{
