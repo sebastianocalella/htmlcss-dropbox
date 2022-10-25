@@ -255,6 +255,14 @@ main section footer *{
 .square{
     height: 15vw;
     width: 15vw;
+    align-items: center;
+}
+
+.square img{
+    width: 10vw;
+    margin: 0 auto;
+    position: absolute;
+    left: calc(50% - 5vw);
 }
 
 main>footer>h2{
