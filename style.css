@@ -169,7 +169,7 @@ main{
     background-color: white;
 }
 
-main header .container,
+main .introduction .container,
 body>footer{                    /*footer of the body*/
     padding: 8rem 15%;
 }
@@ -183,7 +183,7 @@ main h2{
     font-size: 2rem;
 }
 
-main header .big-arrow{
+main .introduction .big-arrow{
     bottom: 20px;
     left: 16%;
     font-size: 1.8rem;
@@ -192,23 +192,23 @@ main header .big-arrow{
 /*main sections indications*/
 
 main section.container,
-main section div.container,
+main .content div.container,
 main footer.container{
     margin: 8rem 20% 0;
 }
 
-/*main header*/
+/*introduction section*/
 
-main header h1{
+main .introduction h1{
     font-size: 3.5rem;
     margin-bottom: 2rem;
 }
 
-main header button{
+main .introduction button{
     margin: 2rem 0;
 }
 
-main header img{
+main .introduction img{
     height: 65%;
     margin-bottom: 3rem;
 }
@@ -474,7 +474,7 @@ body>footer a:hover{
 }
 
 .references{
-    width: 18vw;
+    width: fit-content;
 }
 
 .references h3{
